@@ -28,7 +28,7 @@ This tool takes preprocessed data from the webscraper and uses it to train a neu
 
 ## benchmarker
 
-This tool uses takes a trained neural network and benchmarks it against itself by simulating games. You can enable a graphics with raylib in constants.py, as well as settings for how many benchmarks should be ran. The benchmark data will be outputed in a .json file and will contain information about how many turns the network is able to survive and what length it can reach.
+This tool takes a trained neural network and benchmarks it against itself by simulating games. You can enable graphics with raylib in constants.py, as well as settings for how many benchmarks should be ran. The benchmark data will be outputed in a .json file and will contain information about how many turns the network is able to survive and what length it can reach.
 
 - main.py
   - Simulates and benchmarks a network against itself and saves the benchmark data as a .json file
