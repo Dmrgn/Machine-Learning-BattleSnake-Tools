@@ -1,4 +1,4 @@
-# Machine-Learning-BattleSnake-Tools
+# Machine Learning BattleSnake Tools
 
 4 Python tools for creating pytorch neural networks to play [BattleSnake](https://play.battlesnake.com/).
 
