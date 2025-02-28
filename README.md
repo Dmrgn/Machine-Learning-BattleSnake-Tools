@@ -1,6 +1,6 @@
 # Machine Learning BattleSnake Tools
 
-4 Python tools for creating pytorch neural networks to play [BattleSnake](https://play.battlesnake.com/).
+4 Python tools for creating tensorflow neural networks to play [BattleSnake](https://play.battlesnake.com/).
 
 ## webscraper
 
