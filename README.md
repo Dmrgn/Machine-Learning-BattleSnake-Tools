@@ -19,7 +19,7 @@ This tool uses BeautifulSoup to scrape the BattleSnake leaderboard for game data
 
 ## trainer
 
-This tool takes preprocessed data from the webscraper and uses it to train a neural network. It uses pytorch to handle the network creation and training. Because the training files can get quite large, and python is memory hungry, you can split up the input data into multiple files which will be read and used for training independantly. The network should perform reasonably well after it reaches a cross validation accuracy of ~75%. If your network fails to reach ~60% accuracy after several epochs, it is likely that your training data is bad.
+This tool takes preprocessed data from the webscraper and uses it to train a neural network. It uses tensorflow to handle the network creation and training. Because the training files can get quite large, and python is memory hungry, you can split up the input data into multiple files which will be read and used for training independantly. The network should perform reasonably well after it reaches a cross validation accuracy of ~75%. If your network fails to reach ~60% accuracy after several epochs, it is likely that your training data is bad.
 
 - main.py
   - Creates/loads and trains a convolutional neural network using pytorch and saves it as a .h5 file
